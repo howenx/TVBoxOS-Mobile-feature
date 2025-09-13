@@ -44,10 +44,10 @@ android {
 
     signingConfigs {
         config {
-            keyAlias 'TVBoxOSC'
-            keyPassword 'TVBoxOSC'
-            storeFile file('..\\TVBoxOSC.jks')
-            storePassword 'TVBoxOSC'
+            keyAlias 'TVBoxOS'
+            keyPassword '123123'
+            storeFile file('..\\TVBoxOS.jks')
+            storePassword '123123'
         }
     }
 
@@ -161,8 +161,10 @@ dependencies {
     implementation 'com.hyman:flowlayout-lib:1.1.2'
     //崩溃
     implementation project(":crash")
+    implementation project(":dlna-core")
+    implementation project(":dlna-dmc")
     //dlna投屏
-    implementation 'com.github.devin1014.DLNA-Cast:dlna-dmc:V1.0.0'
+//    implementation 'com.github.devin1014.DLNA-Cast:dlna-dmc:V1.0.0'
     // Lifecycles only (without ViewModel or LiveData)
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
 }
