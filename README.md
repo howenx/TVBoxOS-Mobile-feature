@@ -1,7 +1,7 @@
 # TVBoxMobile
 
-基于
-* [TVBoxOS-Mobile](https://github.com/XiaoRanLiu3119/TVBoxOS-Mobile)
+项目基于[TVBoxOS-Mobile](https://github.com/XiaoRanLiu3119/TVBoxOS-Mobile)
+原作者已经不再更新
 
 ## 增加功能
 - 批量下载m38u，一键拷贝所有m38u地址，使用[mediago](https://github.com/caorushizi/mediago)批量下载成mp4。
